@@ -1,0 +1,6 @@
+server: http://localhost:8080
+repository: gitMagic
+followlinks: true
+
+modules:
+ - modules/*.adoc
