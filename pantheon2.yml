@@ -1,5 +1,5 @@
-server: http://localhost:8080
-repository: gitMagic
+server: http://pantheon2.usersys.redhat.com:8080
+repository: jmarrero
 followlinks: true
 
 modules:
