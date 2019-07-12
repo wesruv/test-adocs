@@ -1,4 +1,4 @@
-server: http://pantheon2-pantheon.int.us-east.aws.preprod.paas.redhat.com
+server: http://pantheon2.pantheon.svc:8080
 repository: jmarrero
 followlinks: true
 
