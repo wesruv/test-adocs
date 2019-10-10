@@ -1,5 +1,5 @@
-server: http://pantheon2-pantheon.int.us-east.aws.preprod.paas.redhat.com
-repository: jmarrero
+server: http://pantheon2-stage.int.us-east.aws.preprod.paas.redhat.com
+repository: llu
 followlinks: true
 
 modules:
