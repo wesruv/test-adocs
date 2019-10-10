@@ -3,4 +3,4 @@ repository: llu
 followlinks: true
 
 modules:
- - modules/*.adoc
+ - modules/**/*.adoc
