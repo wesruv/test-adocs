@@ -104,9 +104,6 @@ To better understand the execution flow of this example, you can load the audit 
 
 In this example, the *Audit View* shows that the assertion of the object `A` in the state `NOTRUN` activates the `"Bootstrap"` rule, while the assertions of the other objects have no immediate effect.
 
-.Salience State example Audit View
-image::Examples/StateExample/state_example_audit1.png[align="center"]
-
 .Rule "Bootstrap" in salience State example
 [source]
 ----
@@ -166,9 +163,6 @@ From this point on, both rules may fire and, therefore, the rules are in conflic
 The *Audit View* in your IDE shows the modification of the `State` object in the rule `"A to B"`, which results in two activations being in conflict.
 
 You can also use the *Agenda View* in your IDE to investigate the state of the {DECISION_ENGINE} agenda. In this example, the *Agenda View* shows the breakpoint in the rule `"A to B"` and the state of the agenda with the two conflicting rules. Rule `"B to D"` fires last, modifying object `D` to state `FINISHED`.
-
-.Salience State example Agenda View
-image::Examples/StateExample/state_example_agenda1.png[align="center"]
 
 [discrete]
 == State example using agenda groups
