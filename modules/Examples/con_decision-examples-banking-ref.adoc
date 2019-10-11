@@ -58,8 +58,8 @@ To execute the example, run the `org.drools.examples.banking.BankingExamplesApp`
 
 After the execution, a basic user interface window appears that you can use to run each example within the example set:
 
-.Banking example GUI
-image::Examples/BankingExample/Banking-GUI.png[]
+//.Banking example GUI
+//image::Examples/BankingExample/Banking-GUI.png[]
 
 Each example that you run displays an execution output in the IDE console window:
 
