@@ -3,4 +3,5 @@ repository: llu
 followlinks: true
 
 modules:
- - modules/**/*.adoc
+  #- modules/**/*.adoc
+ - modules/Examples/con_decision-examples-banking-ref.adoc
