@@ -3,6 +3,10 @@
 
 [id='decision-examples-banking-ref_kie-apis']
 = Banking example decisions (pattern matching, sorting, and calculation)
+:pantheonproduct: example product
+:pantheonversion: 1.0
+:pantheonupdateddate: 12 Feb 2020
+:pantheonpublisheddate: 14 Feb 2020
 
 The Banking example decision set demonstrates the process of developing a complete personal banking application to handle credits and debits in multiple accounts. The example uses a set of design patterns that have been created for the banking process.
 
