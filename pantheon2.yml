@@ -1,7 +1,8 @@
-#server: https://pantheon2-dev.int.us-east.aws.preprod.paas.redhat.com
+#server: https://pantheon.corp.dev.redhat.com
 server: http://localhost:8080
-repository: llu
-followlinks: true
+repositories:
+  - name: llu
+    attributeFile:
 
-modules:
- - modules/**/*.adoc
+    modules:
+      - modules/**/*.adoc

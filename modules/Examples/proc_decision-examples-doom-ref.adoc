@@ -1,5 +1,6 @@
 [id='decision-examples-doom-ref_kie-apis']
 = House of Doom example decisions (backward chaining and recursion)
+:author: Lisa
 
 The House of Doom example decision set demonstrates how the decision engine uses backward chaining and recursion to reach defined goals or subgoals in a hierarchical system.
 
