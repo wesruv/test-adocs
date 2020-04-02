@@ -2,7 +2,6 @@ server: http://localhost:8080
 #server: https://pantheon.corp.redhat.com
 repositories:
   - name: llu
-    attributes:
     modules:
       #- modules/**/*.adoc
       - modules/**/ref_decision-examples-state-ref.adoc
