@@ -7,4 +7,3 @@ repositories:
     #- modules/**/*.adoc
     - modules/**/ref_decision-examples-state-ref.adoc
     - modules/**/con_decision-examples-banking-ref.adoc
-
