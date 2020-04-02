@@ -1,6 +1,10 @@
-server: http://pantheon2-stage.int.us-east.aws.preprod.paas.redhat.com
-repository: llu
-followlinks: true
+server: http://localhost:8080
+#server: https://pantheon.corp.redhat.com
+repositories:
+  - name: llu
+    attributes:
+    modules:
+    #- modules/**/*.adoc
+    - modules/**/ref_decision-examples-state-ref.adoc
+    - modules/**/con_decision-examples-banking-ref.adoc
 
-modules:
- - modules/**/*.adoc
