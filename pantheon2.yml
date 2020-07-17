@@ -1,7 +1,7 @@
 server: http://pantheon2-stage.int.us-east.aws.preprod.paas.redhat.com
 repository: llu
-followlinks: true
 
+variants:
 modules:
   #- modules/**/*.adoc
  - modules/Examples/con_decision-examples-banking-ref.adoc
