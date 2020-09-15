@@ -1,9 +1,10 @@
-server: http://localhost:8080
-#server: https://pantheon.corp.redhat.com
-repositories:
-  - name: llu
-    modules:
-      #- modules/**/*.adoc
-      - modules/**/ref_decision-examples-state-ref.adoc
-      - modules/**/con_decision-examples-banking-ref.adoc
-    resources:    
+#server: http://localhost:8181
+server: https://pantheon.corp.qa.redhat.com
+repository: test
+variants:
+modules:
+  #- modules/**/*.adoc
+  - modules/**/ref_decision-examples-state-ref.adoc
+  - modules/**/con_decision-examples-banking-ref.adoc
+resources:    
+assemblies:
