@@ -635,3 +635,7 @@ Account: 1 - new balance: 100.0
 Debit: Mon May 07 00:00:00 BST 2007 :: 900.0
 Account: 1 - new balance: -800.0
 ----
+
+.Additional resources
+
+* To prepare for total infrastructure loss, see link:https://access.redhat.com/documentation/en-us/red_hat_enterprise_linux/8/html/planning_identity_management/preparing-for-data-loss-with-snapshots_preparing-for-disaster-recovery[Preparing for data loss with VM snapshots].
